@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Iran, Tehran</p>
 
@@ -15,7 +15,9 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi there !!!
+I am a computer engineering student at Amirkabir University of Technology. Currently, my main focus is on 
+my bachelor's thesis, under supervision of Prof. [Nickabadi](https://aut.ac.ir/cv/2387/Ahmad-Nikabadi) (You can find more information about my thesis on the projects section). During my studies as an undergraduate student, I enjoyed learning different topics of Artificial Inteligence and Machine Learning. As these studies shaped my main interest on Computer Vision, Robotics, Reinforcement Learning and Deep Learning. At this time, I am seeking a graduate position to pursue my studies.
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
