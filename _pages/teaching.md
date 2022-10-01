@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: teaching
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: In this section, you can find the courses that I have contributed to their teaching as a TA. 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+Organize your courses by years, topics, or universities, however you like! -->
+

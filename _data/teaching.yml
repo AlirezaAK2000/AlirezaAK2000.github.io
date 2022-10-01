@@ -1,0 +1,28 @@
+
+- title: 
+  type: time_table
+  contents:
+      
+    - title: "Robotics, under supervision of: Prof. Mahdi Javanmardi"
+      institution: "Some of my recorded lectures:"
+      year: Spring 2022
+      description: 
+        - "Introduction to ROS: (<a href=https://github.com/AlirezaAK2000/ros-tutorial>code</a>) (<a href=https://drive.google.com/file/d/1copKayDxNEQp2xcMT8WzS1jStwveApmV/view?usp=sharing=>video</a>)"
+        - "A simple PID for wall following: (<a href=https://github.com/AlirezaAK2000/Wall-Follower>code</a>) (<a href=https://drive.google.com/file/d/1ttC8jxx1tf7i0LPKIMCOQf0agQdYjBOJ/view?usp=sharing>video</a>)"
+
+    - title: "Information Retrieval, under supervision of: Prof. Ahmad Nickabadi"
+      # institution: Institute for Advanced Study, Princeton University
+      year: Spring 2022
+
+
+    - title: "Algorithms Design, under supervision of: Prof. Alireza Bagheri"
+      # institution: Institute for Advanced Study, Princeton University
+      year: Spring 2021
+    
+    - title: "Algorithms Design, under supervision of: Dr. Hamid Hoorfar"
+      # institution: Institute for Advanced Study, Princeton University
+      year: Spring 2021
+    
+    - title: "Data Structures, under supervision of: Dr. Hamid Hoorfar"
+      # institution: Institute for Advanced Study, Princeton University
+      year: Fall 2020
