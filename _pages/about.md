@@ -5,7 +5,8 @@ permalink: /
 subtitle: M.Sc. student · Artificial Intelligence and Robotics · University of Tehran
 profile:
   align: right
-  image: false
+  image: prof_pic_1.jpeg
+  image_circular: false
   more_info: false
 selected_papers: false
 social: true
