@@ -1,0 +1,144 @@
+---
+cv:
+  name: Alireza Akhoundi
+  label: M.Sc. student in Artificial Intelligence and Robotics
+  email: a.akhoundi79@gmail.com
+  location: Tehran, Iran
+  address:
+    city: Tehran
+    region: Iran
+  summary: Final-year M.Sc. student at the University of Tehran, affiliated with the
+    Cognitive Systems Lab. Research focuses on LLM-generated fuzzy policy priors,
+    uncertainty-aware arbitration, and sample-efficient reinforcement learning.
+  social_networks:
+    - network: GitHub
+      username: AlirezaAK2000
+    - network: LinkedIn
+      username: alireza-akhoundi-0422661a4
+  sections:
+    Research Output:
+      - label: Manuscript in preparation
+        details: Sample-Efficient Deep Reinforcement Learning with LLM-Generated Fuzzy Prior Policies.
+    Education:
+      - institution: University of Tehran
+        location: Tehran, Iran
+        area: Artificial Intelligence and Robotics
+        studyType: M.Sc.
+        start_date: 2024-09
+        end_date: 2027-01
+        score: 18.35/20
+        highlights:
+          - "Expected completion: January 2027. GPA: 18.35/20."
+          - "Lab affiliation: Cognitive Systems Lab."
+          - "Thesis: Improving the Sample Efficiency of Deep Reinforcement Learning Using
+            Large Language Model Priors."
+          - "Advisors: Prof. Majid Nili Ahmadabadi and Prof. Babak Nadjar Araabi."
+      - institution: Amirkabir University of Technology
+        location: Tehran, Iran
+        area: Computer Engineering
+        studyType: B.Sc.
+        start_date: 2018-09
+        end_date: 2023-06
+        score: 17.97/20
+        highlights:
+          - "Graduated with distinction. GPA: 17.97/20."
+          - "Thesis: Autonomous Driving Among Pedestrians Using Deep Reinforcement Learning."
+          - "Supervisor: Prof. Ahmad Nickabadi."
+    Experience:
+      - company: The AI Tutorial Guy
+        position: Independent educational content creator
+        start_date: 2026-09
+        end_date: present
+        summary: Creates English-language tutorials on LLM applications, including knowledge-graph
+          chatbots and MCP servers.
+        url: https://www.youtube.com/@TheAITutorialGuy
+      - company: University of Tehran
+        position: Graduate teaching assistant
+        start_date: "2025"
+        end_date: "2026"
+        highlights:
+          - Large Language Models, Deep Learning, Machine Learning, and Natural Language
+            Processing.
+          - Designed RAG evaluation, CNN paper reproduction, regression, embeddings, and
+            text-classification assignments.
+      - company: Yektanet
+        position: Software Engineer
+        location: Tehran, Iran
+        start_date: 2024-05
+        end_date: 2024-11
+        highlights:
+          - Built an end-to-end keyword-suggestion pipeline from raw user-interaction
+            data using Spark, Kafka, Airflow, FastText, Annoy, Django, and Redis.
+          - Increased keyword-based advertising campaign revenue on Divar by 4%, validated
+            through an online A/B test.
+      - company: Amirkabir University of Technology
+        position: Research Assistant
+        start_date: 2021-09
+        end_date: 2022-03
+        highlights:
+          - Investigated controlled image generation with StyleGAN and GAN inversion using
+            PyTorch and TensorFlow.
+      - company: Tapsell
+        position: Software Engineering Intern
+        start_date: 2021-07
+        end_date: 2021-09
+        highlights:
+          - Developed server-side components for the fraud-detection team using Kotlin,
+            Spring Boot, Kafka, and MongoDB.
+      - company: Amirkabir University of Technology
+        position: Undergraduate teaching assistant
+        start_date: "2020"
+        end_date: "2022"
+        highlights:
+          - Robotics, Information Retrieval, Algorithm Design, and Data Structures.
+          - Created ROS/Gazebo exercises and instructional materials; co-developed Elasticsearch
+            notebooks and a Persian news retrieval dataset.
+    Projects:
+      - name: LLM-generated fuzzy priors for RL
+        summary: Executable fuzzy controllers and uncertainty-aware arbitration for
+          sample-efficient deep reinforcement learning.
+        url: https://alirezaak2000.github.io/projects/llm-fuzzy-priors/
+      - name: Pedestrian-aware driving in CARLA
+        summary: A custom image-based environment and DQN, PPO, and discrete SAC agents
+          for pedestrian collision avoidance.
+        url: https://alirezaak2000.github.io/projects/pedestrian-aware-driving/
+      - name: Manufacturing root-cause assistant
+        summary: An RDF-grounded assistant that connects operational observations to
+          possible fault causes, checks, and corrective actions.
+        url: https://alirezaak2000.github.io/projects/manufacturing-knowledge-graph/
+      - name: Knowledge-graph course-advising chatbot
+        summary: A tutorial chatbot using RDF course relationships and LangGraph tools
+          to answer course and prerequisite questions.
+        url: https://alirezaak2000.github.io/projects/course-advising/
+      - name: LLM preference alignment
+        summary: Preference fine-tuning of Llama 3 with DPO, ORPO, and parameter-efficient
+          adaptation.
+        url: https://alirezaak2000.github.io/projects/preference-alignment/
+      - name: Retrieval-augmented fitness chatbot
+        summary: A LangGraph assistant with retrieval, reranking, and comparative evaluation
+          for workout and diet planning.
+        url: https://alirezaak2000.github.io/projects/fitness-chatbot/
+      - name: Brain tumour segmentation
+        summary: Semantic segmentation of MRI scans using U-Net with a VGG-16 backbone.
+        url: https://alirezaak2000.github.io/projects/brain-tumour-segmentation/
+    Skills:
+      - name: Programming and machine learning
+        keywords: Python, C, Rust, PyTorch, TensorFlow, CUDA
+      - name: Reinforcement learning and simulation
+        keywords: TD3, SAC, PPO, DQN, fuzzy inference, MuJoCo, Meta-World, CARLA, ROS,
+          Gazebo
+      - name: LLM and knowledge-based applications
+        keywords: LangGraph, LangChain, RAG, RDF, Turtle, RDFLib, RDFS relationships,
+          LoRA, DPO, ORPO
+      - name: Software and data systems
+        keywords: Django, Spark, Kafka, Airflow, PostgreSQL, MongoDB, Redis, Elasticsearch,
+          Linux, Git
+    Awards:
+      - title: Ranked 32nd among 14,000+ candidates
+        date: "2024"
+        summary: National Entrance Exam for Graduate Study in Artificial Intelligence
+          and Robotics, Iran.
+    Interests:
+      - name: Research
+        keywords: Sample-efficient reinforcement learning, LLM-generated policy priors,
+          fuzzy control, uncertainty-aware decisions, knowledge-grounded agents

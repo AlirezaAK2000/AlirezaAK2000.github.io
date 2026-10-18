@@ -1,0 +1,21 @@
+#!/bin/sh
+set -eu
+
+site_dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$site_dir"
+
+# Prefer an installed modern Ruby; macOS also ships an older system Ruby.
+if [ -x /opt/homebrew/opt/ruby/bin/ruby ]; then
+  PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+elif [ -x /opt/homebrew/Library/Homebrew/vendor/portable-ruby/current/bin/ruby ]; then
+  PATH="/opt/homebrew/Library/Homebrew/vendor/portable-ruby/current/bin:$PATH"
+fi
+export PATH
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export BUNDLE_PATH="$site_dir/vendor/bundle"
+export BUNDLE_USER_HOME="$site_dir/.bundle/user"
+export BUNDLE_APP_CONFIG="$site_dir/.bundle"
+
+ruby -e 'abort "Ruby 3.3 or newer is required." if Gem::Version.new(RUBY_VERSION) < Gem::Version.new("3.3")'
+exec bundle exec jekyll serve --host 127.0.0.1 --baseurl "" "$@"
