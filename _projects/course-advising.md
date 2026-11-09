@@ -1,25 +1,25 @@
 ---
 layout: page
-title: Knowledge-graph course-advising chatbot
-description: A tutorial chatbot using RDF course relationships and LangGraph tools
-  to answer course and prerequisite questions.
+title: Ontology-grounded course-advising chatbot
+description: An RDF-grounded chatbot using LangGraph tools to retrieve course information and check prerequisite chains.
 permalink: "/projects/course-advising/"
-importance: 4
+importance: 2
+featured: true
 category: LLM applications
 related_publications: false
 ---
 
-**Educational open-source project · English-language tutorial**
+**Independent open-source project**
 
-I developed a chatbot around a fictional course catalogue to demonstrate how explicit relationships can ground an LLM application's tool use.
+I developed a chatbot around a fictional 20-course catalogue, connecting explicit course relationships to a language model through graph-backed tools and a Chainlit chat interface.
 
 - Represented course details, credits, terms, prerequisites, and category relationships in RDF/Turtle.
 - Implemented RDFLib access and prerequisite-chain and subclass traversal.
 - Exposed fixed LangGraph tools for course discovery, course details, prerequisite retrieval, and checks against supplied completed courses.
-- Published a hands-on tutorial in English with the implementation.
+- Connected the tools through a LangGraph workflow and displayed answers and tool results in Chainlit.
 
-The tutorial uses a fictional course catalogue to demonstrate graph-grounded retrieval and prerequisite checks.
+The implementation supports graph-grounded retrieval and checks against the completed courses supplied by the user. The catalogue is fictional, and prerequisite and category traversal use explicit graph relationships.
 
-**Tools:** Python, RDFLib, RDF/Turtle, RDFS relationships, LangGraph.
+**Tools:** Python, RDFLib, RDF/Turtle, RDFS relationships, LangGraph, Chainlit.
 
-[Watch the tutorial](https://youtu.be/YPNSFnqtBl4) · [View source code](https://github.com/AlirezaAK2000/knowledge_graph_tutorial)
+[View source code](https://github.com/AlirezaAK2000/knowledge_graph_tutorial) · [Watch the project video](https://youtu.be/YPNSFnqtBl4)
